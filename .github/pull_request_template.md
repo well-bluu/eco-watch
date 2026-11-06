@@ -6,10 +6,6 @@ EW-
 
 -
 
-## Screenshots
-
-<!-- Phone screenshots next to the Figma frame. Before/after for fixes. -->
-
 ## How to test
 
 1. `git fetch && git switch <this-branch>`
@@ -19,7 +15,7 @@ EW-
 ## Checklist
 
 - [ ] `npm run format`, `npm run typecheck` and `npm run lint` pass
-- [ ] Matches the Figma COMBINED page (spacing, colours, text)
+- [ ] Matches the Figma EcoWatch - COMBINED page (spacing, colours, text)
 - [ ] No hard-coded colours or sizes; tokens only
 - [ ] Uses `Text` and `Screen` from `@/components/ui`
 - [ ] Tappable things have an accessibility role and label, and are at least 44 px
