@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "eco-watch",
+    "name": "Eco-Watch",
     "slug": "eco-watch",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -8,11 +8,12 @@
     "scheme": "ecowatch",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "supportsTablet": false,
+      "bundleIdentifier": "ph.gov.mandaue.ecowatch"
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#1E2F6F",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
@@ -29,7 +30,7 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
+          "backgroundColor": "#1E2F6F",
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 76
         }
