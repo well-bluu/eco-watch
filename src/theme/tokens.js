@@ -47,7 +47,7 @@ const fontSize = {
   title: ["24px", { lineHeight: "30px", letterSpacing: "-0.3px" }], // section titles
   heading: ["20px", { lineHeight: "26px" }], // lead headlines
   row: ["16px", { lineHeight: "22px" }], // rows, card titles, buttons
-  input: ["16px", { lineHeight: "24px" }], // field values
+  input: ["16px"], // field values
   body: ["15px", { lineHeight: "22px" }], // body text, links
   label: ["14px", { lineHeight: "19px" }], // field labels
   small: ["13px", { lineHeight: "18px" }], // supporting detail
