@@ -15,7 +15,7 @@ module.exports = {
     boxShadow: {},
     dropShadow: {},
     blur: {},
-    extend: {},
+    extend: { fontFamily: { sans: [fonts.sans] } },
   },
   plugins: [],
 };

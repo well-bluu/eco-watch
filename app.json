@@ -6,7 +6,7 @@
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "ecowatch",
-    "userInterfaceStyle": "automatic",
+    "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "ph.gov.mandaue.ecowatch"
@@ -32,7 +32,7 @@
         {
           "backgroundColor": "#1E2F6F",
           "image": "./assets/images/splash-icon.png",
-          "imageWidth": 76
+          "imageWidth": 208
         }
       ],
       "expo-font",
